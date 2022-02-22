@@ -43,9 +43,20 @@ var dailyElements = document.getElementsByClassName('daily');
 var weeklyElements = document.getElementsByClassName('weekly');
 var monthlyElements = document.getElementsByClassName('monthly');
 
-dailyPeriod.addEventListener('onclick', ()=>{
+dailyPeriod.addEventListener('click', ()=>{
     change_display(dailyElements);
+    toggle_active(dailyPeriod);
 });
+weeklyPeriod.addEventListener('click', ()=>{
+    change_display(weeklyElements);
+    toggle_active(weeklyPeriod);
+});
+monthlyPeriod.addEventListener('click', ()=>{
+    change_display(monthlyElements);
+    toggle_active(monthlyPeriod);
+});
+
+
 
 function change_display(elements){
     if (elements == dailyElements){
@@ -68,4 +79,10 @@ function change_display(elements){
         }
     }
     
+}
+
+function toggle_active(period){
+    current = document.getElementsByClassName('active')[0];
+    current.className = current.className.replace("active", "");
+    period.className += "active";
 }
