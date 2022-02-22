@@ -182,6 +182,7 @@ body{
         margin: auto;
         margin-bottom: 20px;
         padding: 10px;
+        width: 100%;
     }
     
     .profile-container {
