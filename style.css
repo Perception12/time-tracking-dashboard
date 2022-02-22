@@ -1,0 +1,186 @@
+body{
+    background-color: hsl(226, 43%, 10%);
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+    display: flex;
+    margin: 4rem auto;
+    width: 1300px;
+    height: 400px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.profile-container {
+    width: 200px;
+    height: 100%;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+.active {
+    color: hsl(236, 100%, 87%);
+}
+
+.profile {
+    height: 65%;
+    padding: 20px;
+    padding-bottom: 0;
+    color: hsl(236, 100%, 87%);
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 15px;
+}
+
+.profile .name {
+    font-size: 32px;
+    margin-top: 0;
+    color: white;
+}
+
+.profile > p {
+    margin-bottom: 0;
+}
+.profile img {
+    width: 50px;
+    margin-bottom: 20px;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+.period {
+    padding: 20px;
+    padding-top: 0;
+    color: hsl(235, 45%, 61%);
+}
+
+#daily-period, #weekly-period, #monthly-period {
+    cursor: pointer;
+}
+
+#daily-period:hover, #weekly-period:hover, #monthly-period:hover {
+    color:  hsl(236, 100%, 87%);
+}
+
+.time-spent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    width: 200px;
+    height: 190px;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+
+.work {
+    background-color: hsl(15, 100%, 70%);
+}
+
+.play {
+    background-color: hsl(195, 74%, 62%);
+}
+
+.study {
+    background-color: hsl(348, 100%, 68%);
+}
+
+.exercise {
+    background-color: hsl(145, 58%, 55%);
+}
+
+.social {
+    background-color: hsl(264, 64%, 52%);
+}
+
+.self-care {
+    background-color: hsl(43, 84%, 65%);
+}
+
+.work, .play, .study, .exercise, .social, .self-care {
+    position: relative;
+    overflow: hidden;
+}
+
+.work > img, .play > img, .study > img, .exercise > img, 
+.social > img, .self-care > img{
+    position: absolute;
+    width: 60px;
+    top: -5px;
+    right: 5px;
+}
+
+.activity {
+    background-color: hsl(235, 46%, 20%);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 60%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    padding: 20px;
+}
+
+.daily {
+    display: none;
+}
+
+.monthly {
+    display: none;
+}
+
+.title-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    color: white;
+}
+
+.ellipsis {
+    cursor: pointer;
+}
+
+.ellipsis:hover {
+    fill: #FFF;
+}
+
+.time {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.previous {
+    color: hsl(236, 100%, 87%);
+    font-size: 14px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: white;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
