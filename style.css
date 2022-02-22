@@ -173,10 +173,6 @@ body{
     font-size: 14px;
 }
 @media screen and (max-width:375px) {
-    html, body {
-        width: 100%;
-        padding: 15px;
-    }
     .container {
         display: flex;
         flex-direction: column;
