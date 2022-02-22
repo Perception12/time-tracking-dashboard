@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution](https://your-solution-url.com)
+- Solution URL: [solution]()
 - Live Site URL: [time-tracking-dashboard](https://perception12.github.io/time-tracking-dashboard/)
 
 ## My process
