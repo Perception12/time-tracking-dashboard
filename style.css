@@ -1,11 +1,15 @@
 body{
     background-color: hsl(226, 43%, 10%);
     font-family: 'Rubik', sans-serif;
+    position: relative;
 }
 
 .container {
     display: flex;
-    margin: 4rem auto;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
     height: 400px;
     flex-direction: row;
     justify-content: center;
