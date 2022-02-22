@@ -172,8 +172,8 @@ body{
     color: hsl(236, 100%, 87%);
     font-size: 14px;
 }
-@media screen and (max-width:400px) {
-    body {
+@media screen and (max-width:375px) {
+    html, body {
         width: 100%;
     }
     .container {
